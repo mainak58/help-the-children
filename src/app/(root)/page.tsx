@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import gallary1 from "../../../assets/gallery-5-original.jpg";
@@ -12,20 +12,44 @@ import Helper from "@/components/Helper";
 import HelpTheGlobe from "@/components/HelpTheGlobe";
 import Footer from "@/components/Footer";
 import Partners from "@/components/Partners";
+import bgbunner from "../../../assets/bg-bunner-2.jpg";
+import wave from "../../../assets/decor-wave-bottom.webp";
 
 export default function Home() {
-
     return (
         <>
             <main>
                 <section className="main-big-container">
                     <div className="main-container">
+                        <div className="image-wrapper">
+                            <Image
+                                src={bgbunner}
+                                alt="bgbunner"
+                                fill
+                                objectFit="cover"
+                            />
+                        </div>
                         <div className="main-container-content">
-                            <p className="main-container-content-title">Help The Children</p>
-                            <p className="main-container-content-description">We do whatever it takes to make sure children don’t just survive but thrive. Helper believes that every child should be able to make their mark on their world and help build a better future.</p>
+                            <p className="main-container-content-title">
+                                Help The Children
+                            </p>
+                            <p className="main-container-content-description">
+                                We do whatever it takes to make sure children
+                                don't just survive but thrive. Helper believes
+                                that every child should be able to make their
+                                mark on their world and help build a better
+                                future.
+                            </p>
                         </div>
                     </div>
-                    <div className="down-white-image"></div>
+                    <div className="down-white-image">
+                        <Image
+                            src={wave}
+                            alt="bgbunner"
+                            fill
+                            objectFit="cover"
+                        />
+                    </div>
                 </section>
 
                 <section className="mission-section">
