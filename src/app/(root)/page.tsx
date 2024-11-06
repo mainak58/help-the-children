@@ -1,8 +1,6 @@
 "use client"
 
-import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import bgBanner from "../../../assets/bg-bunner-2.jpg";
 import gallary1 from "../../../assets/gallery-5-original.jpg";
 import gallary2 from "../../../assets/gallery-3-original.jpg";
 import gallary3 from "../../../assets/gallery-7-original.jpg";

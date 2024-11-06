@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { ApiResponse, IPost } from "@/models/post.model";
 import axios from "axios";
-import Navbar from "@/components/Navbar";
+
 
 
 

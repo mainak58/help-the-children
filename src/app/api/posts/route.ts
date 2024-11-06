@@ -1,8 +1,7 @@
 import connectDb from "@/app/lib/connectDb";
-import { auth } from "@/auth";
 import PostModel from "@/models/post.model";
 import { NextResponse } from "next/server";
-import { Session } from "next-auth";
+
 
 export async function POST(request: Request) {
     await connectDb();
